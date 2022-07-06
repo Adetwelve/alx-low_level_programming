@@ -4,11 +4,12 @@
  *
  *Return: 0
  */
-void print_alphabet_x10(void)
+void print_alphabet_x10(void);
 {
-	char w, i;
+	char w;
+	int z;
 
-	for (i = '0'; i <= '9'; i++)
+	for (y = '0'; y <= '9'; y++)
 	{
 		for (w = 'a'; w <= 'z'; w++)
 		{
