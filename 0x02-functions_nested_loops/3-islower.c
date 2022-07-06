@@ -4,7 +4,7 @@
  * @c:    is the the int that will use for the argument of the function
  * Return: 0
  */
-int _islowe(int c)
+int _islower(int c)
 {
 	if (c >= 'a' && c <= 'z')
 	{
