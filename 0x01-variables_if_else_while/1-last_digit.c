@@ -1,9 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /**
  *main - print te last digit of the number stored in variable n
  *
- * Return: alway return (0)
+ * Return: alway return 0
  */
 int main(void)
 {
