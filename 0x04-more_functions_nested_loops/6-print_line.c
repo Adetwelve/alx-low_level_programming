@@ -4,7 +4,7 @@
  *print_line - print a line
  *@n: integer
  */
-void print_line(int n);
+void print_line(int n)
 {
 	int j;
 
@@ -13,8 +13,9 @@ void print_line(int n);
 	else
 	{
 		for (j = 0; j < n; j++)
-		_putchar(95);
+			_putchar(95);
 		_putchar('\n');
 	}
+
 
 }
