@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  *main - main block, solve fizz buzz from numbers 1 to 100
@@ -6,7 +6,7 @@
  *Multiples of both 3 and 5 should print FizzBuzz.
  *Return: 0
  */
-int main(void)
+void fizz_buzz(void)
 {
 	int j;
 

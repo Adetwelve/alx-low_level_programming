@@ -3,7 +3,7 @@
 /**
  *_isupper - to determine if alphabet is uppercase
  *@c: an integer
- *Return: something
+ *Return: 1 else 0
  */
 int _isupper(int c)
 {
