@@ -1,9 +1,7 @@
 #include "main.h"
 
 /**
- *main - check code
  *more_numbers - print more numbers
- *Return: Always 0
  */
 void more_numbers(void)
 {
