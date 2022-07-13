@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 #include <time.h>
+#include <stdlib.h>
 
 /**
  *main - random password generator for 101-crackme
@@ -14,17 +15,16 @@ char *_strcpy(char *dest, char *src)
 	char p[58];
 
 	srand(time(NULL));
-
 	while (s != 2772)
+
 	{
 	i = k = s = 0;
 	while ((2772 - 122) > s)
 	{
-	j = rand() % 62;
-
-	p[i] = c[j];
-	s += c[j];
-	i++;
+		j = rand() % 62;
+		p[i] = c[j];
+		s += c[j];
+		i++;
 	}
 	while (c[k])
 	{
