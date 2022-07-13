@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *rev-string - rev string
+ *rev_string - rev string
  *@s: argument s
  */
 void rev_string(char *s)
