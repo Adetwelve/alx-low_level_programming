@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
@@ -8,7 +7,7 @@
  *
  *Return: always 0
  */
-char *_strcpy(char *dest, char *src)
+int main(void)
 {
 	int i, j, k, s;
 	char c[] = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
