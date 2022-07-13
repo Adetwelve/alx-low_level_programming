@@ -1,4 +1,5 @@
 #include "main.h"
+#include <sring.h>
 
 /**
  *puts2 - print every other character of a string
