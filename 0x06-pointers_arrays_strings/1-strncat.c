@@ -4,9 +4,10 @@
  *_strncat - function append src to dest
  *@dest:1st parameter
  *@src: 2nd parameter
+ *@n:3rd parameter
  *Return: string
  */
-char *_strncpy(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	int a, b;
 
