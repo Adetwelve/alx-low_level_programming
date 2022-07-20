@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- *_put_recursion -func to print a string
+ *_puts_recursion - func to print a string
  *@s: string parameter
  *Return: 1
  */
 void _puts_recursion(char *s)
 {
-	if(*s  == 0)
+	if (*s  == 0)
 	{
 		_putchar('\n');
 		return;
