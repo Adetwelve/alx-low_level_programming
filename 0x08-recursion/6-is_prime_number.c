@@ -1,0 +1,27 @@
+#include "main.h"
+
+/**
+ *_prime - Makes possible to evaluate from 1 to n
+ *@i: same number as n
+ *@j: number that iterates from 1 to n
+ *Return: On success 1.
+ */
+int _prime(int i, int j)
+{
+	if (i == j)
+		return (1);
+	else if (i % j == 0)
+		return (0);
+	return (_prime(i, j + 1));
+}
+/**
+ *is_prime_number - checks if a number is prime
+ *@n: Number Integer
+ *Return: On success 1.
+ */
+int is_prime_number(int n)
+{
+	if (n <= 1)
+		return (0);
+	return (_prime(n, 2));
+}
