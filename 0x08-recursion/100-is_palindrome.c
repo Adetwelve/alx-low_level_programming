@@ -25,7 +25,7 @@ int at_palindrome(char *i, int j)
 		return (0);
 	else if (*i == 0)
 		return (1);
-	return (at_palindrome(i + j, j - 2));
+	return (at_palindrome(i + 1, j - 2));
 }
 /**
  *is_palindrome - checks if a string is a palindrome
