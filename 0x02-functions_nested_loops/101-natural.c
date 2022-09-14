@@ -9,12 +9,16 @@ int main(void)
 	int i = 1;
 	int sum = 0;
 
-	while (i < 1024)
+	while (i < 10)
 	{
 		if (i % 3 == 0)
+		{
 			sum += i;
+		}
 		else if (i % 5 == 0)
+		{
 			sum += i;
+		}
 
 			i++;
 	}
