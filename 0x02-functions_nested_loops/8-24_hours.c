@@ -1,4 +1,4 @@
-#include"stdio.h"
+#include "main.h"
 /**
  *jack_bauer - print every minutes of the day
  *
@@ -12,7 +12,6 @@ void jack_bauer(void)
 	{
 		j = i / 10;
 		k = i % 10;
-		
 		for (l = 0; l < 60; l++)
 		{
 			m = l / 10;
