@@ -6,19 +6,21 @@
  */
 int main(void)
 {
-	long i = 0, j = 1, k = 0;
+	long a, b, c, d;
 
-	printf("%ld, %ld, ", i, j);
-		k = i + j;
+		a = 1;
+		b = 2;
+		c = 3;
 
-	while (k <= 50)
-	{
-		printf("%ld, ", k);
-		i = j;
-		j = k;
-		k = i + j;
-
-	}
-	printf("\n");
-	return (0);
+		printf("%ld, ", a);
+		printf("%ld, ", b);
+		for (d = 3; d < 50; d++)
+		{
+			printf("%ld; ", c);
+			a = b;
+			b = c;
+			c = a + b;
+		}
+		printf("%ld\n", c);
+		return (0);
 }
