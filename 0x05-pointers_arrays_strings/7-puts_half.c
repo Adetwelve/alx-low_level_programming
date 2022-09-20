@@ -15,7 +15,7 @@ void puts_half(char *str)
 		len++;
 
 	isEven = len % 2 == 0;
-	n = (isEven ? len : len -1) / 2;
+	n = (isEven ? len : len - 1) / 2;
 		n += isEven ? 0 : 1;
 	while (n < len)
 	{
