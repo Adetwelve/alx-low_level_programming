@@ -9,7 +9,7 @@ void puts_half(char *str)
 {
 	int len = 0;
 	int n;
-	int is Even;
+	int isEven;
 
 	while (str[len])
 		len++;
