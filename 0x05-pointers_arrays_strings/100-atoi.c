@@ -34,5 +34,5 @@ int _atoi(char *s)
 	if (k < 0)
 		j *= -1;
 
-	return (h);
+	return (j);
 }
