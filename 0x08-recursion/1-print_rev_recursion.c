@@ -1,4 +1,4 @@
-#includ "main.h"
+#include "main.h"
 
 /**
  *_print_rev_recursion - print string in reverse other
