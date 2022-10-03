@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- *main - adds 2 positive integer.
+ *main - adds two positive integer.
  *
  *@argc: parameter count.
  *@argv: parameter
@@ -13,15 +13,17 @@ int main(int argc, char *argv[])
 {
 	int i, sum = 0;
 
-	if (argc == 0)
-	{
-		return (0);
-	}
+	/*
+	*if (argc == 0)
+	*{
+	*	return (0);
+	*}
+	*/
 	for (i = 1; i < argc; i++)
 	{
 		if (!atoi(argv[i]))
 		{
-			printf("Error\n");
+			printf("%s\n", "Error");
 			return (1);
 		}
 		else
