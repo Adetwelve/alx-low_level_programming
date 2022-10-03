@@ -5,7 +5,7 @@
  *main - print all argument entered
  *
  *@argc: parameter count
- *@argv: parameter 
+ *@argv: parameter
  *
  *Return: always 0 on success
  */
