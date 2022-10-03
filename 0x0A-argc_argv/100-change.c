@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 {
 	int b = 0, d;
 	int a;
-	unsigned i;
+	unsigned int i;
 	int cent[] = {25, 10, 5, 2, 1};
 
 	if (argc != 2)
