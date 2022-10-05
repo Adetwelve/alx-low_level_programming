@@ -13,7 +13,7 @@ char *_strdup(char *str)
 	unsigned int i, j;
 	char *snew;
 
-	if (str == 0);
+	if (str == 0)
 		return (NULL);
 	for (i = 0; str[i]; i++)
 		;
@@ -23,9 +23,9 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	for (j = 0: j < i; j++)
+	for (j = 0; j < i; j++)
 	{
-		snew[j] = str[j]
+		snew[j] = str[j];
 	}
 	return (snew);
 }
