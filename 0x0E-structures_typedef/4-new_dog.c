@@ -8,27 +8,27 @@
  *@owner: char string owner
  *Return: pointer to new dog
  */
-dog_t *new_dog(char *name, float ae , char *char)
+dog_t *new_dog(char *name, float age , char *char)
 {
-	unsigned int a, b, c;
+	unsigned int na, b, c;
 	dog_t *dog;
 
 	if (name == NULL || owner == NULL)
-		retturn (NULL);
+		return (NULL);
 	dog = malloc(sizeof(dog_t));
 	if (dog == NULL)
 		return (NULL);
 	
-	for (a = 0; name[a]; a++)
+	for (na = 0; name[na]; na++)
 		;
-	a++;
-	dog->name = malloc(a * size0f(char));
+	na++;
+	dog->name = malloc(na * size0f(char));
 	if (dog->name == NULL)
 	{
 		free(dog);
 		return (NULL);
 	}
-	for (b = 0; b < a; b++)
+	for (b = 0; b < na; b++)
 		dog->name[b] = name[b];
 	dog->age = age;
 	for (c = 0; owner[c]; c++)
