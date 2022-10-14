@@ -5,8 +5,7 @@
  *struct dog - structure defination of dog
  *@name: string parameter
  *@age: integer parameter
- *@owner string parameter
- *
+ *@owner: string parameter
  */
 struct dog
 {
