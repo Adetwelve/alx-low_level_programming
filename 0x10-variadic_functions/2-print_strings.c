@@ -2,12 +2,12 @@
 #include <stdio.h>
 
 /**
- *print_string - prints strings, followed by a new line.
+ *print_strings - prints strings, followed by a new line.
  *
  *@separator: seprator to print between strings
  *@n: number of strings to print
  */
-void print_strings(const char *separator, const unsigned int n, ...);
+void print_strings(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i;
 	char *st;
