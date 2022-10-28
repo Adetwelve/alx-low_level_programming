@@ -2,9 +2,11 @@
 #define MAIN_H
 
 #include <stdio.h>
-#include <stdlib.h>
+#include <string.h>
+#include <limits.h>
 
 #define MAX_COUNT (sizeof(unsigned long int) * 8)
+
 int _putchar(char );
 unsigned int binary_to_uint(const char *b);
 void print_binary(unsigned long int n);
