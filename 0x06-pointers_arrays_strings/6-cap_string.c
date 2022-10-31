@@ -9,8 +9,8 @@ char *cap_string(char *n)
 {
 	int i, x;
 	int cap = 32;
-	int seprator[] = {',', ';', '.', '?', '"', 
-		'(', ')', '{', '}', ' ', '\n', '\t'};
+	int seprator[] = {',', ';', '.', '?', '"',
+		 '(', ')', '{', '}', ' ', '\n', '\t'};
 
 	for (i = 0; n[i] != '\0'; i++)
 	{
@@ -25,7 +25,6 @@ char *cap_string(char *n)
 		{
 			if (n[i] == seprator[x])
 			{
-				x = 12;
 				cap = 32;
 			}
 		}
