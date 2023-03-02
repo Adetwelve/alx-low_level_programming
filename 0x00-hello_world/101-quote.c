@@ -1,5 +1,4 @@
 #include <unistd.h>
-#include <stdio.h>
 
 /**
  *main - Prints out the last part of a quote in the standard error.
