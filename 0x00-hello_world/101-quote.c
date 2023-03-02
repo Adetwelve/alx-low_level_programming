@@ -2,14 +2,13 @@
 
 /**
  *main - Prints out the last part of a quote in the standard error.
- *
  *Return: 1 if success.
  */
 
 int main(void)
 {
-	char quote[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+	char quo[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 
-	write(2, quote, sizeof(quote) - 1);
+	write(2, quo, sizeof(quote) - 1);
 	return (1);
 }
